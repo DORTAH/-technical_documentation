@@ -32,4 +32,11 @@
     5.  Делаем коммит с сообщением (git commit -m "Описание изменений")
     6.  Чтобы отправить изменения на GitHub (git push)
 
-    [https://media.licdn.com/dms/image/v2/D4D12AQH5AQC9TXxYkw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1726897313436?e=2147483647&v=beta&t=jb4djqtMk72evJrNUfmpML9usqbI_OJUc2Tp3Hgx7Oc](www.ya.ru)
+4. Шаги git pull
+    1. Открываем проект в VS Code или терминале.
+    2. Убедитесь, что вы находитесь в папке проекта (репозитория).
+    3. Проверяем текущую ветку (git branch) *звёздочкой отмечена активная ветка*
+    4. Получаем свежие изменения из GitHub (git pull)
+    5. Теперь локальный проект синхронизирован с удалённым.
+    
+    ![git.jpg](./img/git.jpg)
