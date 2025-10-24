@@ -29,7 +29,7 @@
 
 ### Платежные системы
 **Глобальные:**
-- Steam Wallet, Epic Games Store支付
+- Steam Wallet, Epic Games Store
 - PlayStation Store, Microsoft Store
 - PayPal, Credit Cards (Visa, MasterCard)
 
