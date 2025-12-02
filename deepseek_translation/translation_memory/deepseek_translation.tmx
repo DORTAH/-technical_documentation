@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header
+    creationtool="DeepSeek Translator"
+    creationtoolversion="1.0"
+    segtype="sentence"
+    o-tmf="Unknown"
+    adminlang="en-US"
+    srclang="ru"
+    datatype="plaintext"
+  />
+  <body>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg># Техническое задание на разработку мобильного приложения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg># Technical Specification for Mobile Application Development</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 1. Общие положения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 1. General Provisions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 1.1. Наименование проекта</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 1.1. Project Name
+
+Translation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>Мобильное приложение "TaskManager Pro" для iOS и Android.</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Mobile application "TaskManager Pro" for iOS and Android.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 1.2. Цель проекта</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 1.2. Project Objective
+
+Translation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>Создание кроссплатформенного мобильного приложения для управления задачами с функциями:</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Creating a Cross-Platform Mobile Application for Task Management with Features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Создание и редактирование задач</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Creating and editing tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Назначение сроков выполнения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Setting deadlines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Категоризация задач по проектам</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Task categorization by projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Уведомления о дедлайнах</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Deadline notifications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Синхронизация между устройствами</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Synchronization between devices</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 1.3. Заказчик</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 1.3. Customer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>ООО "ТехноСофт"</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>TechnoSoft LLC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>Контактное лицо: Иванов Иван Иванович</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Contact person: Ivanov Ivan Ivanovich</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>Email: ivanov@technosoft.ru</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>Email: ivanov@technosoft.ru</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 2. Требования к функциональности</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 2. Functional Requirements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 2.1. Основные модули приложения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 2.1. Main Application Modules</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>#### 2.1.1. Модуль аутентификации</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>#### 2.1.1. Authentication Module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Регистрация по email и паролю</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Registration via email and password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Вход в систему</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Log in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Восстановление пароля</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Password Recovery</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Выход из системы</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Log out</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>#### 2.1.2. Модуль задач</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>#### 2.1.2. Task Module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Создание новой задачи (название, описание, срок, приоритет)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Creating a new task (title, description, deadline, priority)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Редактирование существующих задач</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Editing existing tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Удаление задач</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Deleting tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Отметка о выполнении</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Completion mark</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Фильтрация по статусу (все, активные, завершенные)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Filter by status (all, active, completed)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>#### 2.1.3. Модуль проектов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>#### 2.1.3. Projects Module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Создание проектов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Creating projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Добавление задач в проекты</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Adding tasks to projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Просмотр статистики по проекту</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- View project statistics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Архивация завершенных проектов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Archiving completed projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 2.2. Дополнительные функции</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 2.2. Additional Functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Push-уведомления о приближении дедлайна</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Push notifications about approaching deadlines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Темная/светлая тема оформления</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Dark/light theme</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Экспорт задач в PDF</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Export tasks to PDF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Интеграция с Google Календарём</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Integration with Google Calendar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 3. Технические требования</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 3. Technical Requirements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 3.1. Платформы</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 3.1. Platforms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **iOS**: версия 14.0 и выше</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **iOS**: version 14.0 and above</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Android**: версия 8.0 (API 26) и выше</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Android**: version 8.0 (API 26) and higher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 3.2. Архитектура приложения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 3.2. Application Architecture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 3.3. Стек технологий</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 3.3. Technology Stack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Frontend**: React Native 0.70</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Frontend**: React Native 0.70</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Backend**: Node.js 18 + Express</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Backend**: Node.js 18 + Express</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **База данных**: PostgreSQL 15</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Database**: PostgreSQL 15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Хранение файлов**: Amazon S3</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **File storage**: Amazon S3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Push-уведомления**: Firebase Cloud Messaging</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Push notifications**: Firebase Cloud Messaging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 3.4. API</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 3.4. API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- REST API с аутентификацией по JWT токену</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- REST API with JWT token authentication</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Документация в формате OpenAPI 3.0</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Documentation in OpenAPI 3.0 format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Rate limiting: 100 запросов в минуту на пользователя</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Rate limiting: 100 requests per minute per user</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 4. Требования к интерфейсу</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 4. Interface Requirements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 4.1. Общие принципы</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 4.1. General Principles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Material Design для Android</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Material Design for Android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Human Interface Guidelines для iOS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Human Interface Guidelines for iOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Поддержка жестов (свайпы, долгое нажатие)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Gesture support (swipes, long press)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Адаптивность под разные размеры экранов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Adaptability to different screen sizes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 4.2. Основные экраны</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 4.2. Main Screens</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>1. **Экран входа/регистрации**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>1. **Login/Registration Screen**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>2. **Главный экран со списком задач**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>2. **Main Screen with Task List**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>3. **Экран создания/редактирования задачи**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>3. **Task Creation/Editing Screen**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>4. **Экран проектов**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>4. **Projects Screen**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>5. **Экран настроек**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>5. **Settings Screen**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 5. Требования к безопасности</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 5. Security Requirements</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 5.1. Защита данных</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 5.1. Data Protection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Шифрование паролей (bcrypt)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Password encryption (bcrypt)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- HTTPS для всех сетевых запросов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- HTTPS for all network requests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Валидация входных данных</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Input Data Validation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Защита от SQL-инъекций</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- SQL injection protection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 5.2. Конфиденциальность</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 5.2. Privacy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Политика конфиденциальности согласно GDPR</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Privacy Policy in accordance with GDPR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Возможность удаления аккаунта и всех данных</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Ability to delete account and all data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Шифрование локальной базы данных</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Local database encryption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 6. Производительность</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 6. Performance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 6.1. Целевые показатели</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 6.1. Key Performance Indicators (KPIs)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Время запуска приложения: &lt; 2 секунд</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Application startup time: &lt; 2 seconds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Время загрузки списка задач: &lt; 1 секунды</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Task list loading time: &lt; 1 second</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Частота кадров: стабильные 60 FPS</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Frame rate: stable 60 FPS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 6.2. Оптимизация</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 6.2. Optimization</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Ленивая загрузка изображений</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Lazy loading of images</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Кэширование часто используемых данных</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Caching frequently used data</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Минификация и сжатие ресурсов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Minification and compression of resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 7. Этапы разработки</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 7. Development Stages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 7.1. Фаза 1: Подготовка (2 недели)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 7.1. Phase 1: Preparation (2 weeks)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Анализ требований</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Requirements analysis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Проектирование архитектуры</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Architecture Design</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Создание прототипов интерфейса</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Creating interface prototypes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 7.2. Фаза 2: Разработка (10 недель)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 7.2. Phase 2: Development (10 weeks)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Настройка окружения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Environment Setup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Реализация core-функционала</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Implementation of core functionality</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Интеграция с бэкендом</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Backend Integration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Базовое тестирование</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Basic testing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 7.3. Фаза 3: Тестирование (3 недели)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 7.3. Phase 3: Testing (3 weeks)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Unit-тесты</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Unit tests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- UI-тесты</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- UI tests</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Тестирование производительности</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Performance Testing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Исправление багов</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Bug fixes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 7.4. Фаза 4: Запуск (1 неделя)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 7.4. Phase 4: Launch (1 week)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Публикация в App Store и Google Play</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Publication in App Store and Google Play</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Мониторинг после запуска</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Post-launch monitoring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Сбор обратной связи</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Collecting feedback</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 8. Критерии приемки</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 8. Acceptance Criteria</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 8.1. Функциональные</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 8.1. Functional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Все функции из раздела 2 работают корректно</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- All functions from section 2 work correctly</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Нет критических багов (crash, data loss)</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- No critical bugs (crash, data loss)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Поддержка заявленных платформ</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Support for declared platforms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 8.2. Нефункциональные</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 8.2. Non-functional</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Соответствие требованиям производительности</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Performance requirements compliance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Выполнение стандартов безопасности</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Compliance with security standards</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Положительные отзывы тестовой группы</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Positive feedback from the test group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 9. Документация</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 9. Documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 9.1. Обязательная документация</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 9.1. Required Documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Техническое описание архитектуры</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Technical description of the architecture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Руководство пользователя</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- User Guide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Руководство по развертыванию</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Deployment Guide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- API документация</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- API documentation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 9.2. Форматы</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 9.2. Formats</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Документация в формате Markdown</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Documentation in Markdown format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Диаграммы в формате PlantUML или Mermaid</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Diagrams in PlantUML or Mermaid format</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Видеоинструкции для сложных функций</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Video instructions for complex functions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>## 10. Сроки и бюджет</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>## 10. Timeline and Budget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 10.1. Сроки выполнения</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 10.1. Delivery Timeline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Начало проекта: 15 января 2024</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Project start: January 15, 2024</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Окончание разработки: 30 апреля 2024</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Completion of development: April 30, 2024</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Запуск в production: 15 мая 2024</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Production launch: May 15, 2024</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>### 10.2. Бюджет</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>### 10.2. Budget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Разработка: 1 500 000 рублей</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Development: 1,500,000 rubles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Тестирование: 200 000 рублей</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Testing: 200,000 rubles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- Техническая поддержка (3 месяца): 150 000 рублей</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- Technical support (3 months): 150,000 rubles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>- **Итого: 1 850 000 рублей**</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>- **Total: 1,850,000 rubles**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>---</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>---
+
+**IMPORTANT RULES:**
+1. Preserve all Markdown markup (headings, lists, formatting)
+2. Leave technical terms unchanged (API, MVP, etc.)
+3. Preserve code and JSON formatting
+4. Do not add explanations, only translation
+
+Source text:
+---
+
+Translation:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>*Дата составления: 10 декабря 2023*</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>*Date of preparation: December 10, 2023*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>*Версия документа: 1.0*</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>*Document version: 1.0*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="ru">
+        <seg>*Статус: На согласовании*</seg>
+      </tuv>
+      <tuv xml:lang="en">
+        <seg>*Status: Under approval*</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

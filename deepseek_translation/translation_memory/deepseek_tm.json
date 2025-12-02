@@ -1,0 +1,682 @@
+[
+  {
+    "source": "# Техническое задание на разработку мобильного приложения",
+    "target": "# Technical Specification for Mobile Application Development",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 1. Общие положения",
+    "target": "## 1. General Provisions",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 1.1. Наименование проекта",
+    "target": "### 1.1. Project Name\n\nTranslation:",
+    "context": "technical_spec"
+  },
+  {
+    "source": "Мобильное приложение \"TaskManager Pro\" для iOS и Android.",
+    "target": "Mobile application \"TaskManager Pro\" for iOS and Android.",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 1.2. Цель проекта",
+    "target": "### 1.2. Project Objective\n\nTranslation:",
+    "context": "technical_spec"
+  },
+  {
+    "source": "Создание кроссплатформенного мобильного приложения для управления задачами с функциями:",
+    "target": "Creating a Cross-Platform Mobile Application for Task Management with Features:",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Создание и редактирование задач",
+    "target": "- Creating and editing tasks",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Назначение сроков выполнения",
+    "target": "- Setting deadlines",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Категоризация задач по проектам",
+    "target": "- Task categorization by projects",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Уведомления о дедлайнах",
+    "target": "- Deadline notifications",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Синхронизация между устройствами",
+    "target": "- Synchronization between devices",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 1.3. Заказчик",
+    "target": "### 1.3. Customer",
+    "context": "technical_spec"
+  },
+  {
+    "source": "ООО \"ТехноСофт\"",
+    "target": "TechnoSoft LLC",
+    "context": "technical_spec"
+  },
+  {
+    "source": "Контактное лицо: Иванов Иван Иванович",
+    "target": "Contact person: Ivanov Ivan Ivanovich",
+    "context": "technical_spec"
+  },
+  {
+    "source": "Email: ivanov@technosoft.ru",
+    "target": "Email: ivanov@technosoft.ru",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 2. Требования к функциональности",
+    "target": "## 2. Functional Requirements",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 2.1. Основные модули приложения",
+    "target": "### 2.1. Main Application Modules",
+    "context": "technical_spec"
+  },
+  {
+    "source": "#### 2.1.1. Модуль аутентификации",
+    "target": "#### 2.1.1. Authentication Module",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Регистрация по email и паролю",
+    "target": "- Registration via email and password",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Вход в систему",
+    "target": "- Log in",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Восстановление пароля",
+    "target": "- Password Recovery",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Выход из системы",
+    "target": "- Log out",
+    "context": "technical_spec"
+  },
+  {
+    "source": "#### 2.1.2. Модуль задач",
+    "target": "#### 2.1.2. Task Module",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Создание новой задачи (название, описание, срок, приоритет)",
+    "target": "- Creating a new task (title, description, deadline, priority)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Редактирование существующих задач",
+    "target": "- Editing existing tasks",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Удаление задач",
+    "target": "- Deleting tasks",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Отметка о выполнении",
+    "target": "- Completion mark",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Фильтрация по статусу (все, активные, завершенные)",
+    "target": "- Filter by status (all, active, completed)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "#### 2.1.3. Модуль проектов",
+    "target": "#### 2.1.3. Projects Module",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Создание проектов",
+    "target": "- Creating projects",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Добавление задач в проекты",
+    "target": "- Adding tasks to projects",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Просмотр статистики по проекту",
+    "target": "- View project statistics",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Архивация завершенных проектов",
+    "target": "- Archiving completed projects",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 2.2. Дополнительные функции",
+    "target": "### 2.2. Additional Functions",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Push-уведомления о приближении дедлайна",
+    "target": "- Push notifications about approaching deadlines",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Темная/светлая тема оформления",
+    "target": "- Dark/light theme",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Экспорт задач в PDF",
+    "target": "- Export tasks to PDF",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Интеграция с Google Календарём",
+    "target": "- Integration with Google Calendar",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 3. Технические требования",
+    "target": "## 3. Technical Requirements",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 3.1. Платформы",
+    "target": "### 3.1. Platforms",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **iOS**: версия 14.0 и выше",
+    "target": "- **iOS**: version 14.0 and above",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Android**: версия 8.0 (API 26) и выше",
+    "target": "- **Android**: version 8.0 (API 26) and higher",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 3.2. Архитектура приложения",
+    "target": "### 3.2. Application Architecture",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 3.3. Стек технологий",
+    "target": "### 3.3. Technology Stack",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Frontend**: React Native 0.70",
+    "target": "- **Frontend**: React Native 0.70",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Backend**: Node.js 18 + Express",
+    "target": "- **Backend**: Node.js 18 + Express",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **База данных**: PostgreSQL 15",
+    "target": "- **Database**: PostgreSQL 15",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Хранение файлов**: Amazon S3",
+    "target": "- **File storage**: Amazon S3",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Push-уведомления**: Firebase Cloud Messaging",
+    "target": "- **Push notifications**: Firebase Cloud Messaging",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 3.4. API",
+    "target": "### 3.4. API",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- REST API с аутентификацией по JWT токену",
+    "target": "- REST API with JWT token authentication",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Документация в формате OpenAPI 3.0",
+    "target": "- Documentation in OpenAPI 3.0 format",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Rate limiting: 100 запросов в минуту на пользователя",
+    "target": "- Rate limiting: 100 requests per minute per user",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 4. Требования к интерфейсу",
+    "target": "## 4. Interface Requirements",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 4.1. Общие принципы",
+    "target": "### 4.1. General Principles",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Material Design для Android",
+    "target": "- Material Design for Android",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Human Interface Guidelines для iOS",
+    "target": "- Human Interface Guidelines for iOS",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Поддержка жестов (свайпы, долгое нажатие)",
+    "target": "- Gesture support (swipes, long press)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Адаптивность под разные размеры экранов",
+    "target": "- Adaptability to different screen sizes",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 4.2. Основные экраны",
+    "target": "### 4.2. Main Screens",
+    "context": "technical_spec"
+  },
+  {
+    "source": "1. **Экран входа/регистрации**",
+    "target": "1. **Login/Registration Screen**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "2. **Главный экран со списком задач**",
+    "target": "2. **Main Screen with Task List**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "3. **Экран создания/редактирования задачи**",
+    "target": "3. **Task Creation/Editing Screen**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "4. **Экран проектов**",
+    "target": "4. **Projects Screen**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "5. **Экран настроек**",
+    "target": "5. **Settings Screen**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 5. Требования к безопасности",
+    "target": "## 5. Security Requirements",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 5.1. Защита данных",
+    "target": "### 5.1. Data Protection",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Шифрование паролей (bcrypt)",
+    "target": "- Password encryption (bcrypt)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- HTTPS для всех сетевых запросов",
+    "target": "- HTTPS for all network requests",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Валидация входных данных",
+    "target": "- Input Data Validation",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Защита от SQL-инъекций",
+    "target": "- SQL injection protection",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 5.2. Конфиденциальность",
+    "target": "### 5.2. Privacy",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Политика конфиденциальности согласно GDPR",
+    "target": "- Privacy Policy in accordance with GDPR",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Возможность удаления аккаунта и всех данных",
+    "target": "- Ability to delete account and all data",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Шифрование локальной базы данных",
+    "target": "- Local database encryption",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 6. Производительность",
+    "target": "## 6. Performance",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 6.1. Целевые показатели",
+    "target": "### 6.1. Key Performance Indicators (KPIs)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Время запуска приложения: < 2 секунд",
+    "target": "- Application startup time: < 2 seconds",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Время загрузки списка задач: < 1 секунды",
+    "target": "- Task list loading time: < 1 second",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Частота кадров: стабильные 60 FPS",
+    "target": "- Frame rate: stable 60 FPS",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 6.2. Оптимизация",
+    "target": "### 6.2. Optimization",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Ленивая загрузка изображений",
+    "target": "- Lazy loading of images",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Кэширование часто используемых данных",
+    "target": "- Caching frequently used data",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Минификация и сжатие ресурсов",
+    "target": "- Minification and compression of resources",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 7. Этапы разработки",
+    "target": "## 7. Development Stages",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 7.1. Фаза 1: Подготовка (2 недели)",
+    "target": "### 7.1. Phase 1: Preparation (2 weeks)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Анализ требований",
+    "target": "- Requirements analysis",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Проектирование архитектуры",
+    "target": "- Architecture Design",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Создание прототипов интерфейса",
+    "target": "- Creating interface prototypes",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 7.2. Фаза 2: Разработка (10 недель)",
+    "target": "### 7.2. Phase 2: Development (10 weeks)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Настройка окружения",
+    "target": "- Environment Setup",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Реализация core-функционала",
+    "target": "- Implementation of core functionality",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Интеграция с бэкендом",
+    "target": "- Backend Integration",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Базовое тестирование",
+    "target": "- Basic testing",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 7.3. Фаза 3: Тестирование (3 недели)",
+    "target": "### 7.3. Phase 3: Testing (3 weeks)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Unit-тесты",
+    "target": "- Unit tests",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- UI-тесты",
+    "target": "- UI tests",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Тестирование производительности",
+    "target": "- Performance Testing",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Исправление багов",
+    "target": "- Bug fixes",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 7.4. Фаза 4: Запуск (1 неделя)",
+    "target": "### 7.4. Phase 4: Launch (1 week)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Публикация в App Store и Google Play",
+    "target": "- Publication in App Store and Google Play",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Мониторинг после запуска",
+    "target": "- Post-launch monitoring",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Сбор обратной связи",
+    "target": "- Collecting feedback",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 8. Критерии приемки",
+    "target": "## 8. Acceptance Criteria",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 8.1. Функциональные",
+    "target": "### 8.1. Functional",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Все функции из раздела 2 работают корректно",
+    "target": "- All functions from section 2 work correctly",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Нет критических багов (crash, data loss)",
+    "target": "- No critical bugs (crash, data loss)",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Поддержка заявленных платформ",
+    "target": "- Support for declared platforms",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 8.2. Нефункциональные",
+    "target": "### 8.2. Non-functional",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Соответствие требованиям производительности",
+    "target": "- Performance requirements compliance",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Выполнение стандартов безопасности",
+    "target": "- Compliance with security standards",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Положительные отзывы тестовой группы",
+    "target": "- Positive feedback from the test group",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 9. Документация",
+    "target": "## 9. Documentation",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 9.1. Обязательная документация",
+    "target": "### 9.1. Required Documentation",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Техническое описание архитектуры",
+    "target": "- Technical description of the architecture",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Руководство пользователя",
+    "target": "- User Guide",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Руководство по развертыванию",
+    "target": "- Deployment Guide",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- API документация",
+    "target": "- API documentation",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 9.2. Форматы",
+    "target": "### 9.2. Formats",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Документация в формате Markdown",
+    "target": "- Documentation in Markdown format",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Диаграммы в формате PlantUML или Mermaid",
+    "target": "- Diagrams in PlantUML or Mermaid format",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Видеоинструкции для сложных функций",
+    "target": "- Video instructions for complex functions",
+    "context": "technical_spec"
+  },
+  {
+    "source": "## 10. Сроки и бюджет",
+    "target": "## 10. Timeline and Budget",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 10.1. Сроки выполнения",
+    "target": "### 10.1. Delivery Timeline",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Начало проекта: 15 января 2024",
+    "target": "- Project start: January 15, 2024",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Окончание разработки: 30 апреля 2024",
+    "target": "- Completion of development: April 30, 2024",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Запуск в production: 15 мая 2024",
+    "target": "- Production launch: May 15, 2024",
+    "context": "technical_spec"
+  },
+  {
+    "source": "### 10.2. Бюджет",
+    "target": "### 10.2. Budget",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Разработка: 1 500 000 рублей",
+    "target": "- Development: 1,500,000 rubles",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Тестирование: 200 000 рублей",
+    "target": "- Testing: 200,000 rubles",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- Техническая поддержка (3 месяца): 150 000 рублей",
+    "target": "- Technical support (3 months): 150,000 rubles",
+    "context": "technical_spec"
+  },
+  {
+    "source": "- **Итого: 1 850 000 рублей**",
+    "target": "- **Total: 1,850,000 rubles**",
+    "context": "technical_spec"
+  },
+  {
+    "source": "---",
+    "target": "---\n\n**IMPORTANT RULES:**\n1. Preserve all Markdown markup (headings, lists, formatting)\n2. Leave technical terms unchanged (API, MVP, etc.)\n3. Preserve code and JSON formatting\n4. Do not add explanations, only translation\n\nSource text:\n---\n\nTranslation:",
+    "context": "technical_spec"
+  },
+  {
+    "source": "*Дата составления: 10 декабря 2023*",
+    "target": "*Date of preparation: December 10, 2023*",
+    "context": "technical_spec"
+  },
+  {
+    "source": "*Версия документа: 1.0*",
+    "target": "*Document version: 1.0*",
+    "context": "technical_spec"
+  },
+  {
+    "source": "*Статус: На согласовании*",
+    "target": "*Status: Under approval*",
+    "context": "technical_spec"
+  }
+]
